@@ -1,0 +1,12 @@
+This is my own benchmark test for CLBG. 
+This code is used to do CLBG JRuby performance for my implementation of bytecode-jit on the IBM J9. So it depends on my implementation (which is part of J9 now). So to do the benchmark test, you have to configure it with IBM J9 Java8 version. 
+
+My changes includes two parts.
+
+1) Run benchmark tests. 
+   Set the [option].sampling=1 (makefiles/my.linux.ini) will force the running in the benchmark test mode. The execution will depends on my implementation of IBM J9. Also, you need configure the JVM home in the configureation file. 
+
+2) The data analaysis 
+
+   This only depends on the Python and has nothing to do with Java. To enable it, only set the sampling value as 0 and correct set up the result json file on the tmp/ directory.  
+

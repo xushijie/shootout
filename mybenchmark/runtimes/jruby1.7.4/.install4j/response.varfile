@@ -1,0 +1,5 @@
+#install4j response file for JRuby 1.7.4
+#Tue Sep 24 10:48:35 ADT 2013
+sys.languageId=en
+sys.installationDir=c\:\\runtimes\\jruby1.7.4
+configure.path$Boolean=true
